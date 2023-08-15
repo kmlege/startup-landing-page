@@ -1,0 +1,67 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat',sans-serif;
+}
+
+
+body {
+	background: url(laptop.jpg) center center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 300px;
+	color: floralwhite;
+
+}
+
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	border: none;
+	color: floralwhite;
+	text-decoration: none;
+	
+	
+}
+
+button {
+	border-radius: 30px;
+	height: 35px;
+	background-color: #FF613F;
+	color: floralwhite;
+	border-color: #FF613F;
+}
+
+a {
+	color: floralwhite;
+	text-decoration: none;
+	border: none;
+}
+
+
+button:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+
+hr {
+	max-width: 65px;
+	opacity: 1;
+	margin: 10px auto;
+	border-color: red;
+}
+
+h1 {
+	text-transform: uppercase;
+}
